@@ -7,3 +7,18 @@ INSERT INTO bears (id, name, age, gender, color, temperament, alive) VALUES
 (6,"Grinch", 2, "M", "Black", "Grinchy", 1),
 (7,"Wendy", 6, "F", "Blue", "naive", 1),
 (8,null, 20, "M", "black", "aggressive", 0);
+
+SELECT name, age FROM bears WHERE gender = "F";
+SELECT name FROM bears ORDER BY name ASC;
+
+
+-- SELECT [names of columns we are going to select] FROM [table we are selecting from];
+
+-- SELECT * FROM [table name] WHERE [column name] = [some value];
+
+
+
+
+-- UPDATE [table name] SET [column name] = [new value] WHERE [column name] = [value];
+-- DELETE FROM [table name] WHERE [column name] = [value];
+-- INSERT INTO cats (name, age, breed) VALUES ('Maru', 3, 'Scottish Fold');
